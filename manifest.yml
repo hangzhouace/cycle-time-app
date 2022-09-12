@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: hello-world-app-hello-world-panel
+      function: main
+      title: Cycle Time
+      icon: https://cdn-icons-png.flaticon.com/512/850/850960.png
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/9f0aeac4-7712-4ed8-8de3-77ed0488e6fa
+permissions:
+  scopes:
+    - read:jira-work
